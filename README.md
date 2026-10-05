@@ -50,8 +50,6 @@ How to acquire StrucOGP license to activate your StrucOGP software:
 
 4\. You will find a LIC file named StrucOGP\_license in our reply. Please put it in the same folder as the main.exe. The wrong path or license file may cause failure when you start program.
 
- 
-
 5\. StrucOGP is available freely for academic research, non-commercial or educational purposes under academic license.
 
 
