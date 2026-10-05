@@ -2,9 +2,9 @@ Overview
 ====
 Name:StrucOGP
 
-version:1.0.0
+version:1.0.1
 
-release date: 11/15/2025
+release date: 10/05/2026
 
 developed by python3.9
 
@@ -108,7 +108,7 @@ Instructions for use
 
 3\. Click 'step 2' tab, if you want to perform quantitative analysis, please select the corresponding label or click 'None' otherwise. Select fixed and variable modifications, if you need to add additional modifications, you can set modification name and monoisotopic mass by clicking 'Add to list' button.
 
-4\. Click 'step 3' tab, fill in the search settings, such as energy, oxonium ions, mass tolerance peptide fragment number， peptide length and Max site number.
+4\. Click 'step 3' tab, fill in the search settings, such as energy, oxonium ions, mass tolerance, peptide fragment number (default value is 8)， peptide length and Max site number.
 
 5\. Click 'Run' button to start search. Once it successfully starts, a page with progress bar(s) should appear within a few minutes.
 
