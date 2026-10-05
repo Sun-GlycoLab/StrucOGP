@@ -1,3 +1,5 @@
+Overview
+====
 Name:StrucOGP
 
 version:1.0.0
@@ -9,7 +11,7 @@ developed by python3.9
 
 
 System requirements
-
+====
 Operating system and software
 
 Windows 11、10 or Windows 7 Service Pack 1 above, Windows Server 2012 or above.
@@ -23,7 +25,7 @@ Intel or AMD x86-64 processor, 4.6 GHz processor with 64 GB RAM
 
 
 Installation guide
-
+====
 StrucOGP can be used without installation.
 
 
@@ -31,7 +33,7 @@ StrucOGP can be used without installation.
 
 
 How to acquire StrucOGP license to activate your StrucOGP software:
-
+====
 
 
 1\. You can input 'ipconfig/all' in your command prompt window(CMD) on Windows platform. Under "Ethernet adapter" you may find a string consisting of 12 hexadecimal digits after the "Physical Address", which is your device's media access control address(MAC Address).
@@ -101,7 +103,7 @@ Your leader's e-mail:
 
 
 Instructions for use
-
+====
 1\. Run main.exe file, you can see the GUI interface along with a command console.
 
 2\. Click 'step 1' tab, choose directories for MS files(RAW file), protein database (fasta file) and glycan branch structure database (13\_O\_glycan\_structures.xlsx，22\_O\_glycan\_structures.xlsx).
@@ -119,7 +121,7 @@ Instructions for use
 
 
 Demo
-
+====
 Instructions to run on data
 
 1\. Run main.exe file.
@@ -132,18 +134,23 @@ Instructions to run on data
 
 Expected output
 
-test.xlsx(result file), test.csv and test.log in the directory of test.raw.
+test_result_O.xlsx (result file), test_O.csv (file used for visualization) and test_result_AllSpectra.xlsx (log file), as well as test_raw.pkl, are saved in the directory of test.raw.
 
-Expected run time
+test_raw.pkl is the file generated after spectrum reading and preprocessing of the raw file.
 
-about 9min
+test_fasta.pkl, the theoretical protein database file derived from the enzymatic digestion of the input protein database, is stored in the directory of test.fasta. Important note: This file must be deleted and regenerated if any enzymatic digestion parameters are modified.
+
+about 10min
+<img width="1244" height="1055" alt="Step1" src="https://github.com/user-attachments/assets/c7487941-86ee-44f0-8220-0a451066ef3b" />
+<img width="1232" height="1055" alt="Step2" src="https://github.com/user-attachments/assets/9c2fa5e0-06ae-47bd-846d-781f4e76011b" />
+<img width="1253" height="1055" alt="Step3" src="https://github.com/user-attachments/assets/46601132-f133-461e-a825-e97d2c6e62eb" />
 
 
 
 
 
 Noting
-
+====
 1\. Up to now, there are a total of 13 and 22 O-Glycan structures and we are devoted to achieve O-Glycan structure database independant searching for StrucOGP currently.
 
 2\. Quantification analysis of glycopeptide by StrucOGP can use only TMT and iTRAQ, label free quantification will be supportd in later version.
@@ -161,6 +168,6 @@ Noting
 
 
 Contact
-
+====
 If you have any questions or suggestions, please contact sun\_glycolab@126.com or post issues at Github(https://github.com/Sun-GlycoLab/StrucOGP).
 
