@@ -128,6 +128,8 @@ Instructions to run on data
 
 3\. Click 'step 3' tab, click 'Run' button to start search.
 
+4\. The test data file of StrucOGP have been deposited to the ProteomeXchange Consortium (https://proteomecentral.proteomexchange.org) via the iProX partner repositor with the dataset identifier PXD070825 (URL: https://www.iprox.cn/page/PSV023.html;?url=1763388706755ncDf, Password: DF5G)
+
 Expected output
 
 test.xlsx(result file), test.csv and test.log in the directory of test.raw.
