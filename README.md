@@ -8,6 +8,8 @@ release date: 10/05/2026
 
 developed by python3.9
 
+**Download:**&#8203; [Latest release](https://github.com/Sun-GlycoLab/StrucOGP/releases/latest)
+
 
 
 System requirements
