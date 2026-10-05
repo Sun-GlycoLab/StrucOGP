@@ -124,7 +124,7 @@ Instructions to run on data
 
 1\. Run main.exe file.
 
-2\. Click 'step 1' tab, choose directories for MS files(test.raw), protein database (test.fasta) and glycan branch structure database (13\_O\_glycan\_structures.xlsx).
+2\. Click 'step 1' tab, choose directories for MS files(test.raw), protein database (fetuin.fasta) and glycan branch structure database (13\_O\_glycan\_structures.xlsx).
 
 3\. Click 'step 3' tab, click 'Run' button to start search.
 
